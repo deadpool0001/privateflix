@@ -1,0 +1,4 @@
+body { background:#0f0f0f; color:white; font-family:Arial; text-align:center }
+#browser { display:grid; grid-template-columns:repeat(auto-fill,200px); gap:15px; padding:20px }
+.item { background:#222; padding:10px; border-radius:10px; cursor:pointer }
+video { width:100%; border-radius:10px }

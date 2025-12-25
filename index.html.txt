@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PrivateFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lockScreen">
+  <h2>🔒 PrivateFlix Access</h2>
+  <input type="password" id="passwordInput" placeholder="Enter Password">
+  <button onclick="unlock()">Enter</button>
+</div>
+
+<div id="app" style="display:none;">
+  <h1>🎬 PrivateFlix</h1>
+  <input type="text" id="search" placeholder="Search...">
+  <div id="browser"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
